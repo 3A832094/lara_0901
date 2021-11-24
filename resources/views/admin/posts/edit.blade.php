@@ -31,7 +31,7 @@
 <div class="row">
     <div class="col-lg-12">
         <form action="/admin/posts/{{$post->id}}" method="POST" role="form">
-            @method('POST')
+            @method('PATCH')
             @csrf
             <div class="form-group">
                 <label for="title">標題：</label>
